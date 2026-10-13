@@ -1,0 +1,6 @@
+{
+  "name": "SQLite canonical WebAssembly bundle",
+  "version": "3.54.0",
+  "source": "https://www.sqlite.org/2026/sqlite-wasm-3540000.zip",
+  "sha3_256": "e59cbb6eeeed94d751a24237b10fc4bf4585465a7351c550e313f198cc6743bd"
+}

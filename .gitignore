@@ -1,0 +1,7 @@
+_site/
+__pycache__/
+*.pyc
+*.db
+*.db-*
+*.sqlite*
+.openai/
