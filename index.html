@@ -26,7 +26,8 @@
     </div>
   </header>
 
-  <input id="file-input" type="file" accept=".db,.sqlite,.sqlite3,application/vnd.sqlite3,application/x-sqlite3" hidden>
+  <!-- iPad Files may not recognize SQLite MIME types. Validate file contents on import. -->
+  <input id="file-input" type="file" hidden>
   <main id="welcome" class="welcome">
     <div class="welcome-art" aria-hidden="true">
       <div class="art-card art-card-back"></div><div class="art-card art-card-middle"></div>
